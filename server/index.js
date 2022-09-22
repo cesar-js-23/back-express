@@ -1,7 +1,9 @@
-import express from "express";
+// import express from "express";
+const express = require("express");
+const taskRoutes = require("./routes/tasks.routes");
 import cors from "cors";
 // holis!
-import taskRoutes from "./routes/tasks.routes.js";
+// import taskRoutes from "./routes/tasks.routes.js";
 
 const app = express();
 
